@@ -31,6 +31,7 @@ body {
 
 .nav li {
 	padding-inline: 10px;
+	cursor: pointer;  /* ajout du curseur*/
 }
 
 .nav a {
@@ -91,7 +92,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -102,8 +103,10 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: #823E0D;
 	border-radius:0 ;
+	
 }
 .nav-pills .nav-link {
 	color: #000
