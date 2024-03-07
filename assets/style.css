@@ -360,4 +360,11 @@ input[type="submit"] {
 .footer-infos {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+}
+
+@media all and (max-width: 650px) {
+	.footer-infos {
+		flex-direction: column;
+	}
 }
