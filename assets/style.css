@@ -357,6 +357,7 @@ input[type="submit"] {
 	}
 }
 
-/* .footer-infos {
-	
-} */
+.footer-infos {
+	display: flex;
+	justify-content: space-around;
+}
